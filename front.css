@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+}
+
+.box1 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.box2 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.box3 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.click {
+    width: 200px;
+    height: 200px;
+}
+
+.box1:hover {
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.box2:hover {
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.box3:hover {
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+#clo {
+    background-color: green;
+}
+
+.tex {
+    text-align: center;
+}
